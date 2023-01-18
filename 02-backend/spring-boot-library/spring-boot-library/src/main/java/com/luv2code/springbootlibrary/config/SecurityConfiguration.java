@@ -29,6 +29,6 @@ public class SecurityConfiguration {
 
         Okta.configureResourceServer401ResponseBody(http);
 
-        return null;
+        return http.build();
     }
 }
